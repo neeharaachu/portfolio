@@ -897,7 +897,39 @@ color: var(--text-color);
     border-radius: 5rem;
     font-size: 1.2rem;
 }
+.contact-info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:2rem;
+    margin-bottom:4rem;
+}
 
+.contact-card{
+    background:var(--snd-bg-color);
+    padding:2rem;
+    border-radius:2rem;
+    text-align:center;
+    transition:.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-5px);
+}
+
+.contact-card i{
+    font-size:4rem;
+    color:var(--main-color);
+    margin-bottom:1rem;
+}
+
+.contact-card h3{
+    font-size:2rem;
+    margin-bottom:.5rem;
+}
+
+.contact-card p{
+    font-size:1.4rem;
+}
 
 /* RESPONSIVE */
 
